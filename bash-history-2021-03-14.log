@@ -1,0 +1,84 @@
+2021-03-14.14:09:33 /users1/st/etiudic/lab5-cisc3140    77  man history
+   78  history
+   79  man history
+   80  whatis curl
+   81  man curl
+   82  history 3
+   83  curl https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv
+   84  ls
+   85  cd downloads
+   86  cd Downloads
+   87  l
+   88  ls
+   89  cd ..
+   90  mkdir lab5-cisc3140
+   91  ls
+   92  cd lab5-cisc3140
+   93  man curl
+   94  cur -o capitals.csv https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv
+   95  curl -o capitals.csv https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv
+   96  ls
+   97  curl -O https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv
+   98  curl -L -O https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv
+   99  whoami
+  100  scp country-list.csv etiudic@sol25:/lab5-cisc3140
+  101  curl -L https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv
+  102  ls
+  103  cd Downloads
+  104  ls
+  105  cd ..
+  106  cd lab5-cisc3140
+  107  ls
+  108  curl -L -O https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv
+  109  curl -s https://raw.githubusercontent.com/icyrockcom/country-capitals/master/data/country-list.csv
+  110  man curl
+  111  curl -O https://developers.google.com/public-data/docs/canonical/countries_csv
+  112  ls
+  113  vim countries_csv
+  114  rmdir countries_csv
+  115  delete countries_csv
+  116  rm countries_csv
+  117  git clone https://github.com/icyrockcom/country-capitals.git
+  118  ls
+  119  cd country-capitals
+  120  ls
+  121  cd data
+  122  ls
+  123  vim country-list.csv
+  124  history
+  125  cp country-list.csv lab5-cisc3140
+  126  cd ~
+  127  cd lab5-cisc3140
+  128  ls
+  129  cd country-capitals
+  130  ls
+  131  cd data
+  132  ls
+  133  rmdir lab5-cisc3140
+  134  rm -d lab5-cisc3140
+  135  ls
+  136  cp country-list.csv ~/lab5-cisc3140
+  137  cd~
+  138  cd ~
+  139  cd lab5-cisc3140
+  140  ls
+  141  rm -d country-capitals
+  142  while IFS=, read -r field1 field2; do echo "$field1 and $field2"; done < country-list.csv
+  143  vim country-list.csv
+  144  history
+  145  whatis grep
+  146  man grep
+  147  grep Romania country-list.csv
+  148  cd lab5-cisc3140
+  149  grep Romania country-list.csv
+  150  grep "United States" country-list.csv
+  151  grep -i AzErbaijan country-list.csv
+  152  history
+  153  grep -o -i "united states" country-list.csv | wc -l
+  154   echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 76)" >> ~/lab5-cisc3140/.logs/downloading-csv-using-grep.log
+  155  echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 76)" >> ~/lab5-cisc3140/downloading-csv-using-grep.log
+  156  ls
+  157  vim downloading-csv-using-grep.log
+  158  rm downloading-csv-using-grep.log
+  159  history
+  160  if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 84)" >> ~/lab5-cisc3140/bash-history-$(date "+%Y-%m-%d").log; fi
